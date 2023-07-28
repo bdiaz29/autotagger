@@ -37,6 +37,13 @@ There is also a gui for ease of use
 <br>
 ![image](https://github.com/bdiaz29/autotagger/assets/16212103/11415ddc-68ea-47d9-97c8-a69102b6e740)
 
+<h1> Installation  </h1>
+
+git clone https://github.com/bdiaz29/Moving-Shot-Extraction-
+<br>
+pip install -r requirements.txt
+
+
 
 
 
