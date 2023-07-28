@@ -33,7 +33,7 @@ explantion of the parameters of autotagger.oy
 "--use_tensorrt" : set this flag if you intent to use tensorRT
 
 
-There is also a gui ease of use 
+There is also a gui for ease of use 
 <br>
 ![image](https://github.com/bdiaz29/autotagger/assets/16212103/11415ddc-68ea-47d9-97c8-a69102b6e740)
 
