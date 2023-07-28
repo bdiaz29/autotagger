@@ -39,7 +39,7 @@ There is also a gui for ease of use
 
 <h1> Installation  </h1>
 
-git clone https://github.com/bdiaz29/Moving-Shot-Extraction-
+git clone https://github.com/bdiaz29/autotagger
 <br>
 pip install -r requirements.txt
 
