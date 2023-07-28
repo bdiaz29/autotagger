@@ -1,0 +1,8 @@
+opencv-python
+numpy
+tensorflow<2.11
+tqdm
+#for tensorrtp
+#pycuda
+#tf2onnx
+#onnx
