@@ -15,7 +15,7 @@ import sqlite3
 
 def tags_no_characters():
     conn = sqlite3.connect('tags.db')
-    command = f"SELECT name FROM tags WHERE category='0' ORDER BY order_id ASC"
+    command = f"SELECT REPLACE(name, '_', ' ') FROM tags WHERE category='0' ORDER BY order_id ASC"
     cur = conn.cursor()
     cur.execute(command)
     rows = cur.fetchall()
@@ -25,7 +25,7 @@ def tags_no_characters():
 
 def tags_with_characters():
     conn = sqlite3.connect('tags.db')
-    command = f"SELECT name FROM tags WHERE category='0' OR category='4' ORDER BY order_id ASC"
+    command = f"SELECT REPLACE(name, '_', ' ') FROM tags WHERE category='0' OR category='4' ORDER BY order_id ASC"
     cur = conn.cursor()
     cur.execute(command)
     rows = cur.fetchall()
